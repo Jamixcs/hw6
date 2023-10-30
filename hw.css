@@ -77,7 +77,7 @@ body{
 .red{
     background-color: rgb(177, 35, 50);
 }
-/*
+
 @media screen and (max-width:768px){
     .content{
         display: grid;
@@ -92,14 +92,13 @@ body{
         padding: 0%;
         align-items: center;
     }
-    .content-box > div:nth-of-type(1),content-box > div:nth-of-type(2){
+    .content-box > div:nth-of-type(1),.content-box > div:nth-of-type(2){
         width: 50%;
         justify-items: center;
     }
     .content-box img{
         padding: 0%;
-        display: block;
-    }
+        }
 
 }
 @media screen and (max-width:375px){
@@ -109,8 +108,11 @@ body{
     .content-box > div:nth-of-type(1){
         margin: 20px;
     }
+    .content-box > div:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+}
     .content-list{
         right: 0;
     }
 }
-*/
